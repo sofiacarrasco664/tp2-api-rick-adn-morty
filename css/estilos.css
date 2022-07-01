@@ -1,0 +1,251 @@
+
+@media screen and (min-width: 1200px) {
+    #resultado li, #main li {
+        display: inline-block;
+        width: 25%;
+    }
+}
+
+
+@media screen and (min-width: 1199px) {
+    #lista li {
+        display: inline-block;
+        width: 45%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #lista li {
+        display: inline-block;
+        width: 70%;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #resultado li, #main li {
+        display: inline-block;
+        width: 45%;
+    }
+
+    h1{
+        font-size: 2.5em!important;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #lista li {
+        display: inline-block;
+        width: 70%;
+        margin: 20px;
+    }
+
+    #resultado li, #main li {
+        display: inline-block;
+        width: 70%;
+    }
+
+    h1{
+        font-size: 4em!important;
+    }
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #050a1c;
+}
+
+h1 {
+    color: #32f7cc!important;
+    margin-bottom: 10px;
+} 
+
+#pre-load p {
+    margin-bottom: 50px;
+}
+
+p {
+    color: #ffffff;
+}
+
+ul li {
+    list-style: none;
+    padding: 0%;
+}
+
+.container {
+    margin-top: 5%;
+    padding-bottom: 2em;
+}
+
+.status {
+    background-color: #32f7cc;
+    width: fit-content;
+    padding: 5px 25px;
+    font-size: 0.8em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+#resultado li, #main ul li {
+    margin: 20px 10px;
+    display: inline-block;
+    padding: 0%;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.card-body h2 {
+    font-size: 1.5em!important;
+    color: #32f7cc;
+}
+
+.navbar-light {
+    background-color: #10204c;
+}
+
+.navbar {
+    width: 95%;
+}
+
+.nav-link {
+    color: #9de4f4!important;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #32f7cc!important;
+    font-weight: 600;
+}
+
+.btn-outline-success {
+    color: #83e6d0;
+    border-color: #83e6d0;
+}
+
+footer {
+    background-color: #10204c;
+    padding: 5em 0;
+    margin-top: 20.8em;
+}
+
+footer p {
+    text-align: center;
+}
+
+#main {
+    margin-top: 5%;
+}
+
+.card {
+    background-color: #10204c;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #32f7cc;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.aviso_mal {
+    background-color: #10204c;
+    border-radius: 30px;
+    padding: 1em 3em 3em 3em;
+    margin: auto;
+    width: 50%;
+}
+
+.aviso_mal p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.aviso_mal img {
+    padding: 0 10%;
+    margin-bottom: 30px;
+}
+
+.aviso_mal h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #cef;
+    border-color: #cef transparent #cef transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+.carga {
+    background-color: #050a1c;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    clip-path: circle(150% at 100% 0);
+    transition: clip-path 0.3s ease-in-out;
+}  
+
+.loader2{
+    clip-path: circle(0% at 100% 0);
+}
+
+#main li {
+    display: inline-block;
+}
+
+
+

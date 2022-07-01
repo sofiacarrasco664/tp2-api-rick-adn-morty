@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sofia Carrasco dwn3av PWA</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="shortcut icon" href="img/icons/favicon-16x16.png">
+      </head>
+    <body>
+      <header class="navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="index.html">Rick and Morty</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Personajes</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link active" href="#">Episodios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="favoritos.html">Favoritos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div id="aviso"></div>
+      <main>
+        <div class="container">
+          <div id="pre-load"></div>
+          <div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar episodios" aria-label="Search" id="search" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="sendButton">Buscar</button>
+            </form>
+          </div>
+          <div id="lista">
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>Este es un tp para la materia Aplicaciones Web Progresivas de la Escuela Davinci</p>
+      </footer>
+      <div class="lds-hourglass carga" id="loader"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+        <script src="js/register-sw.js"></script>
+        <script src="js/episodios.js"></script>
+        <script src="js/load.js"></script>
+    </body>
+</html>
