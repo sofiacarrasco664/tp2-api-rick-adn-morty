@@ -1,3 +1,5 @@
 links para el tp
 
 GitHub: https://github.com/sofiacarrasco664/tp2-api-rick-adn-morty.git
+
+Vercel: https://tp2-api-rick-adn-morty-4axn7r9xb-sofiacarrasco664.vercel.app/
